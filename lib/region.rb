@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 class Region
 
   attr_reader :code, :zipcode
@@ -22,7 +24,7 @@ class Region
     format_rate(min)
   end
 
-  protected
+  private
 
   def format_rate(num)
     sprintf('%.2f', num) if num

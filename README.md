@@ -28,4 +28,6 @@ Run the program:
 
 ## Tests
 
-TODO
+```
+rake test
+```

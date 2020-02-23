@@ -13,8 +13,6 @@ This script runs with Ruby 2.7.0. It is recommended that you use a Ruby
 version manager (such as [rvm](https://rvm.io/)) to operate this program.
 
 ```
-git clone [path todo]
-
 cd slcsp
 gem install bundler
 bundle install

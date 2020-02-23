@@ -2,6 +2,6 @@
 
 require_relative "lib/calculator.rb"
 
-calculator = Calculator.new()
-rates = calculator.list_slcsp_rates
+calculator = Calculator.new("slcsp.csv", "Silver")
+rates = calculator.list_second_cost_rates
 puts rates
